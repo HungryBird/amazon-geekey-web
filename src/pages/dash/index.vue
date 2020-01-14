@@ -1,7 +1,7 @@
 <template>
     <section class="home-content-wrap main-wrap">
         <div class="herder">
-            <a class="login">即刻登录评论<sup>+</sup></a>
+            <a class="login">即刻登录 丛林者</a>
         </div>
         <div class="introduction">
             <h2>
@@ -217,16 +217,17 @@ export default {
 .login{
     position: absolute;
     bottom: 80px;
-    left: calc(50% - 110px);
-    background-color: #ffd500;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: grey;
     color: #fff;
-    -webkit-box-shadow: 29px 16px 90px rgba(34,96,201,.69);
-    box-shadow: 29px 16px 90px rgba(34,96,201,.69);
+    // -webkit-box-shadow: 29px 16px 90px rgba(34,96,201,.69);
+    // box-shadow: 29px 16px 90px rgba(34,96,201,.69);
     padding: 20px 40px;
     min-width: 140px;
     text-align: center;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 36px;
     sup{
         font-size: 75%;
         line-height: 0;
@@ -237,7 +238,7 @@ export default {
 .herder{
     position: relative;
     min-height: 890px;
-    background: url(../../assets/img/bg.png) top 20px center no-repeat #0674eb;
+    background: url(../../assets/img/bg2.png) top 20px center no-repeat #ED8117;
     background-size: cover;
     background-position: 50%;
 }

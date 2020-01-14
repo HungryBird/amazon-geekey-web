@@ -3,7 +3,7 @@
         <nav>
             <div class="nav-logo">
                 <a href="/" class="router-link-exact-active router-link-active">
-                    <img src="../../assets/img/logo.png" />
+                    <img src="../../assets/img/logo2.png" class="logo" />
                 </a>
             </div>
             <div class="nav-menu ivu-menu ivu-menu-light ivu-menu-horizontal">
@@ -44,10 +44,10 @@ export default {
                     label: '关于我们',
                     value: '/about',
                 },
-                {
-                    label: '客户案例',
-                    value: '/case',
-                },
+                // {
+                //     label: '客户案例',
+                //     value: '/case',
+                // },
                 {
                     label: '常见问题',
                     value: '/problem',
@@ -69,10 +69,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .content{
     margin-top: 90px;
     nav{
-        background-color: #0674eb;
+        background-color: #ED8117;
         position: fixed;
         top: 0;
         left: 0;
@@ -97,25 +98,34 @@ export default {
                 outline: 0;
                 cursor: pointer;
                 transition: color .2s ease;
+                height: 90px;
+                padding: 10px;
+                display: inline-block;
+                box-sizing: border-box;
+                .logo{
+                    display: block;
+                    height: 100%;
+                    object-fit: contain;
+                }
             }
         }
         .nav-menu{
             height: 100%;
             background-color: transparent;
             .nav-item{
-                color: #fff;
-                font-size: 18px;
+                color: grey;
+                font-size: 28px;
                 line-height: 30px;
                 margin: 0 20px;
                 padding: 0;
                 // border-bottom: none;
                 &:hover{
-                    border-bottom: 2px solid #fff;
+                    border-bottom: 2px solid grey;
                 }
             }
             
             .nav-item.ivu-menu-item-active{
-                border-bottom: 2px solid #fff;
+                border-bottom: 2px solid grey;
             }
         }
         .ivu-menu-horizontal.ivu-menu-light{
@@ -128,10 +138,12 @@ export default {
             .nav-button{
                 background-color: transparent;
                 width: 120px;
-                font-size: 14px;
-                color: #fff;
+                font-size: 28px;
+                line-height: 48px;
+                height: 48px;
+                color: grey;
                 margin: 0 5px;
-                border: 2px solid #fff;
+                border: 2px solid grey;
                 &:hover{
                     color: #e8431f;
                     border: 2px solid #e8431f;
