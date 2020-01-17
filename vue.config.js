@@ -4,7 +4,7 @@ function resolve(dir) {
     return path.join(__dirname, dir);
 }
 
-module.export = {
+module.exports = {
     configureWebpack: {
         resolve: {
             alias: {
@@ -13,5 +13,5 @@ module.export = {
         }
     },
     productionSourceMap: false,
-    publicPath: '/',
+    publicPath: '/dist/',
 }

@@ -1,9 +1,9 @@
 <template>
     <section class="home-content-wrap main-wrap">
         <div class="herder">
-            <a class="login">即刻登录 丛林者</a>
+            <a class="login" href="http://ceping.nnzysp.com/member/index/login.html">即刻登录 CLZ66</a>
         </div>
-        <div class="introduction">
+        <!-- <div class="introduction">
             <h2>
                 使用我们的服务您获得六大利益
             </h2>
@@ -203,7 +203,7 @@
                     登陆后台
                 </a>
             </div>
-        </div>
+        </div> -->
     </section>
 </template>
 
@@ -238,7 +238,7 @@ export default {
 .herder{
     position: relative;
     min-height: 890px;
-    background: url(../../assets/img/bg2.png) top 20px center no-repeat #ED8117;
+    background: url(../../assets/img/bg1.png) top 20px center no-repeat #ED8117;
     background-size: cover;
     background-position: 50%;
 }

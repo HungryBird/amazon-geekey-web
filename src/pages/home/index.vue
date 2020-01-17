@@ -3,7 +3,7 @@
         <nav>
             <div class="nav-logo">
                 <a href="/" class="router-link-exact-active router-link-active">
-                    <img src="../../assets/img/logo2.png" class="logo" />
+                    <img src="../../assets/img/logo.png" class="logo" />
                 </a>
             </div>
             <div class="nav-menu ivu-menu ivu-menu-light ivu-menu-horizontal">
@@ -11,26 +11,26 @@
             </div>
             <div class="nav-login">
                 <button type="button" class="nav-button ivu-btn ivu-btn-default ivu-btn-circle">
-                    <span>登录</span>
+                    <span><a style="color:#fff;" href="http://ceping.nnzysp.com/member/index/login.html">登录</a></span>
                 </button>
                 <button type="button" class="nav-button ivu-btn ivu-btn-default ivu-btn-circle">
-                    <span>注册</span>
+                    <span><a style="color:#fff;" href="http://ceping.nnzysp.com/member/index/register.html">注册</a></span>
                 </button>
             </div>
         </nav>
         <router-view></router-view>
-        <h-server></h-server>
-        <h-footer></h-footer>
+        <!-- <h-server></h-server>
+        <h-footer></h-footer> -->
     </div>    
 </template>
 
 <script>
-import hFooter from './footer'
-import hServer from './server'
+// import hFooter from './footer'
+// import hServer from './server'
 export default {
     components: {
-        hFooter,
-        hServer,
+        // hFooter,
+        // hServer,
     },
     data() {
         return {
@@ -113,19 +113,19 @@ export default {
             height: 100%;
             background-color: transparent;
             .nav-item{
-                color: grey;
+                color: #fff;
                 font-size: 28px;
                 line-height: 30px;
                 margin: 0 20px;
                 padding: 0;
                 // border-bottom: none;
                 &:hover{
-                    border-bottom: 2px solid grey;
+                    border-bottom: 2px solid #fff;
                 }
             }
             
             .nav-item.ivu-menu-item-active{
-                border-bottom: 2px solid grey;
+                border-bottom: 2px solid #fff;
             }
         }
         .ivu-menu-horizontal.ivu-menu-light{
@@ -141,9 +141,9 @@ export default {
                 font-size: 28px;
                 line-height: 48px;
                 height: 48px;
-                color: grey;
+                color: #fff;
                 margin: 0 5px;
-                border: 2px solid grey;
+                border: 2px solid #fff;
                 &:hover{
                     color: #e8431f;
                     border: 2px solid #e8431f;
