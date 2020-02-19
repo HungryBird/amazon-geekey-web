@@ -1,17 +1,17 @@
 <template>
 <div class="problem-wrap main-wrap">
     <Collapse simple>
-        <Panel name="1">&lt;CLZ66&gt;提供的产品评论服务符合亚马逊的政策规定吗?安全吗?
+        <Panel name="1">&lt;CLZ66丛林者&gt;提供的产品评论服务符合亚马逊的政策规定吗?安全吗?
             <div slot="content">
                 <div class="reply">
-                    <p>绝对安全和真实，CLZ66 平台通过在Facebook,Instagram,Twitter等社交平台，投放广告，受众人群都是根据您的产品而设定，买家是真的对产品感兴趣，愿意付产品税或者运费购买您的产品，CLZ66的亚马逊测评服务不是刷单并且完全区别于亚马逊非法刷单服务，我们的服务是符合亚马逊的政策规定，真实的测评人/真实信用卡付款/真实购买FBA的产品/然后客观的测评你的产品，所以是安全和合法的。</p>
+                    <p>绝对安全和真实，&lt;CLZ66丛林者&gt; 平台通过在Facebook,Instagram,Twitter等社交平台，投放广告，受众人群都是根据您的产品而设定，买家是真的对产品感兴趣，愿意付产品税或者运费购买您的产品，&lt;CLZ66&gt;丛林者的亚马逊测评服务不是刷单并且完全区别于亚马逊非法刷单服务，我们的服务是符合亚马逊的政策规定，真实的测评人/真实信用卡付款/真实购买FBA的产品/然后客观的测评你的产品，所以是安全和合法的。</p>
                 </div>
             </div>
         </Panel>
         <panel name="2">只能购买FBA吗?需要真正发货给评论人吗?
             <div slot="content">
                 <div class="reply">
-                    <p>CLZ66 测评平台只做真实靠谱的测评服务，所以只能购买FBA产品，需要真实发货给评论人使用。</p>
+                    <p>&lt;CLZ66丛林者&gt; 测评平台只做真实靠谱的测评服务，所以只能购买FBA产品，需要真实发货给评论人使用。</p>
                 </div>
             </div>
         </panel>
@@ -25,7 +25,7 @@
         <panel name="4">你们会查看买家的AMAZON 的profile 吗？你们是怎么筛选的呢？
             <div slot="content">
                 <div class="reply">
-                    <p>是的。CLZ66 每放出一个订单给买家之前，都严格筛选买家的Profile, 如果发现买家在一个月内留评率过高，或者差评太多，或者买家账号太新，我们是不会同意买家购买的。保证买家账号的权重。</p>
+                    <p>是的。&lt;CLZ66&gt;丛林者 每放出一个订单给买家之前，都严格筛选买家的Profile, 如果发现买家在一个月内留评率过高，或者差评太多，或者买家账号太新，我们是不会同意买家购买的。保证买家账号的权重。</p>
                 </div>
             </div>
         </panel>
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </panel>
-        <panel name="6">CLZ66 提供的都是VP评论吗?
+        <panel name="6">&lt;CLZ66&gt;丛林者 提供的都是VP评论吗?
             <div slot="content">
                 <div class="reply">
                     <p>是的，我们的测评人员一定是真实原价的购买您的产品，所以测评评论都是显示Verified Purchase验证购买评论.</p>

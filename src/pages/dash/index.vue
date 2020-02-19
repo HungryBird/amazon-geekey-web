@@ -1,7 +1,7 @@
 <template>
     <section class="home-content-wrap main-wrap">
         <div class="herder">
-            <a class="login" href="http://ceping.nnzysp.com/member/index/login.html">即刻登录 CLZ66</a>
+            <a class="login" href="http://www.clz66.com/member/index/login.html">即刻登录 CLZ66丛林者</a>
         </div>
         <!-- <div class="introduction">
             <h2>

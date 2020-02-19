@@ -11,26 +11,26 @@
             </div>
             <div class="nav-login">
                 <button type="button" class="nav-button ivu-btn ivu-btn-default ivu-btn-circle">
-                    <span><a style="color:#fff;" href="http://ceping.nnzysp.com/member/index/login.html">登录</a></span>
+                    <span><a style="color:#fff;" href="http://www.clz66.com/member/index/login.html">登录</a></span>
                 </button>
                 <button type="button" class="nav-button ivu-btn ivu-btn-default ivu-btn-circle">
-                    <span><a style="color:#fff;" href="http://ceping.nnzysp.com/member/index/register.html">注册</a></span>
+                    <span><a style="color:#fff;" href="http://www.clz66.com/member/index/register.html">注册</a></span>
                 </button>
             </div>
         </nav>
         <router-view></router-view>
-        <!-- <h-server></h-server>
-        <h-footer></h-footer> -->
+        <h-server></h-server>
+        <!-- <h-footer></h-footer> -->
     </div>    
 </template>
 
 <script>
 // import hFooter from './footer'
-// import hServer from './server'
+import hServer from './server'
 export default {
     components: {
         // hFooter,
-        // hServer,
+        hServer,
     },
     data() {
         return {

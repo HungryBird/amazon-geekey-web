@@ -1,10 +1,10 @@
 <template>
     <div class="customer-service-wrap" :class="{'animation': fold}">
         <div class="customer-service">
-            <h2>
+            <!-- <h2>
                 在线客服
-            </h2>
-            <ul>
+            </h2> -->
+            <!-- <ul>
                 <li>
                     <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1485403242&site=qq&menu=yes">
                         <img :src="img" />
@@ -35,13 +35,14 @@
                         <span>售后</span>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
             <div class="customer-service-cell">
                 <h3>
-                    热线电话
+                    联系微信
                 </h3>
                 <p>
-                    13824365090
+                    <!-- 13824365090 -->
+                    <img class="weixin" src="../../assets/img/weixin.png" />
                 </p>
             </div>
         </div>
@@ -68,6 +69,10 @@ export default {
 </script>
 
 <style lang="scss">
+.weixin{
+    display: block;
+    height: 180px;
+}
 h3{
     display: block;
     font-size: 1.17em;
@@ -90,11 +95,11 @@ a{
     transition: color .2s ease;
 }
 .animation{
-    transform: translateX(170px);
+    transform: translateX(200px);
 }
 .customer-service-wrap{
     z-index: 99;
-    width: 170px;
+    width: 200px;
     position: fixed;
     right: 0;
     bottom: 0;
